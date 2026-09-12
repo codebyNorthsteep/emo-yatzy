@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Cinzel:wght@400..900&family=Lekton:ital,wght@0,400;0,700;1,400&display=swap');
 body {
   background-image:
     linear-gradient(45deg, #1a1a1a 25%, transparent 25%, transparent 75%, #1a1a1a 75%),
@@ -10,6 +11,20 @@ body {
   margin: 0;
 }
 
+h1, h2 {
+  font-family: 'Aboreto', cursive;
+  color: #222121;
+}
+
+h3, p, a {
+  font-family: 'Lekton', monospace;
+  color: #282727;
+}
+
+a {
+  text-decoration: none;
+  color: #ff2e6c; 
+}
 .grid-container {
     background-color: rgba(255, 255, 255, 0.8);
   display: grid;
@@ -19,4 +34,16 @@ body {
   max-width: 600px;
   margin: 40px auto; /* centrerar och ger luft ovanför */
   border-radius: 8px; /* mjukar upp kanterna, funkar bra med emo-stil */
+  /*box-shadow: 0 0 20px rgba(255, 46, 108, 0.3);  rosa glow, matchar emo-tema */
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 80px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
 }
