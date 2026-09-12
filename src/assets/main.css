@@ -11,8 +11,24 @@ body {
   margin: 0;
 }
 
+h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
 h1, h2 {
   font-family: 'Aboreto', cursive;
+  font-weight: 500;
   color: #222121;
 }
 
@@ -31,7 +47,7 @@ a {
   grid-template-columns: 1fr;
   gap: 20px;
   padding: 20px;
-  max-width: 600px;
+  max-width: 300px;
   margin: 40px auto; /* centrerar och ger luft ovanför */
   border-radius: 8px; /* mjukar upp kanterna, funkar bra med emo-stil */
   /*box-shadow: 0 0 20px rgba(255, 46, 108, 0.3);  rosa glow, matchar emo-tema */
@@ -43,7 +59,20 @@ a {
   }
 
   h2 {
-    font-size: 30px;
+    font-size: 45px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .grid-container {
+    max-width: 700px;
+    padding: 40px;
   }
 
 }

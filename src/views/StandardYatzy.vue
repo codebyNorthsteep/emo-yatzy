@@ -4,7 +4,7 @@ import StandardForm from '../components/StandardForm.vue'
 
 <template>
     <div>
-        <h1>Standard Yatzy</h1>
+        <h2>Standard Yatzy</h2>
         <p>Welcome to the Standard Yatzy game!</p>
     </div>
     <div>
