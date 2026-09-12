@@ -6,6 +6,7 @@ import { RouterLink, RouterView } from 'vue-router'
   <header>
     <div class="wrapper">
       <h1>Emo Yatzy</h1>
+      
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
