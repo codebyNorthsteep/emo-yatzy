@@ -1,5 +1,5 @@
 <script setup>
-import Maxi from '../components/Maxi.vue'
+import MaxiForm from '../components/MaxiForm.vue'
 </script>
 <template>
     <div>
@@ -7,6 +7,6 @@ import Maxi from '../components/Maxi.vue'
         <p>Welcome to the Maxi Yatzy game!</p>
     </div>
     <div>
-        <Maxi />
+        <MaxiForm />
     </div>
 </template>

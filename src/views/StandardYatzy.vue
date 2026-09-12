@@ -1,5 +1,5 @@
 <script setup>
-import Standard from '../components/Standard.vue'
+import StandardForm from '../components/StandardForm.vue'
 </script>
 
 <template>
@@ -8,6 +8,6 @@ import Standard from '../components/Standard.vue'
         <p>Welcome to the Standard Yatzy game!</p>
     </div>
     <div>
-        <Standard />
+        <StandardForm />
     </div>
 </template>
