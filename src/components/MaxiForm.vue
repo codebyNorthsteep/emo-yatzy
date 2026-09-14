@@ -16,7 +16,7 @@ const {
 <template>
   <div class="form-container">
   <form @submit.prevent="addPlayer">
-    <input class="player-input" type="text" v-model="playerName" />
+    <input class="player-input" type="text" v-model="playerName" placeholder="Skriv in spelarnamn.." />
     <button type="submit">Add Player</button>
   </form>
 </div>
@@ -174,5 +174,5 @@ const {
       </tr>
     </tbody>
   </table>
-  <div><button id="terminate-button" type="button" @click="terminateGame">Nytt Spel</button></div>
+  <div id="terminate-button"><button type="button" @click="terminateGame">Nytt Spel</button></div>
 </template>

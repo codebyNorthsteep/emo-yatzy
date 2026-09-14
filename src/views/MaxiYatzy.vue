@@ -15,7 +15,5 @@ import MaxiForm from '../components/MaxiForm.vue'
 .maxi-yatzy-welcome {
   text-align: center;
   margin-bottom: 20px;
-  text-shadow: 0 0 8px rgba(255, 46, 108, 0.5);
-  text-decoration: underline;
 }
 </style>

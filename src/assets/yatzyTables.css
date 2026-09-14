@@ -8,19 +8,21 @@
 .yatzy-block {
   border-collapse: collapse;
   width: 100%;
+  background-color: var(--emo-yta);
+  color: var(--emo-text);
 }
 
 th,
 td {
   font-size: 16px;
   font-family: "Lekton", monospace;
-  border: 2px solid #1a1a1a;
+  border: 2px solid #413f3d;
   padding: 4px 8px;
   text-align: left;
 }
 
 .summa-rad {
-  background-color: #c9b8a3;
+  background-color: #413f3d;
   font-weight: bold;
 }
 
@@ -54,6 +56,10 @@ button:hover {
 }
 
 #terminate-button {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 20px;
 }
 
@@ -62,7 +68,8 @@ button:hover {
     width: 300px;
   }
 
-  th, td {
+  th,
+  td {
     font-size: 20px;
     padding: 6px 12px;
   }
