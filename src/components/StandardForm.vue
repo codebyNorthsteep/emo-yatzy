@@ -1,5 +1,6 @@
 <script setup>
-import { useStandardYatzyLogic } from "../composables/StandardYatzyLogic.js";
+import "../assets/yatzyTables.css";
+import { useStandardYatzyLogic } from "../composables/standardYatzyLogic.js";
 const {
   playerName,
   players,
@@ -143,37 +144,3 @@ const {
   </table>
   <button type="button" @click="terminateGame">Nytt Spel</button>
 </template>
-
-<style scoped>
-.yatzy-block {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-th,
-td {
-  border: 2px solid #1a1a1a;
-  padding: 4px 8px;
-  text-align: left;
-}
-
-.summa-rad {
-  background-color: #c9b8a3;
-  font-weight: bold;
-}
-
-input {
-  width: 100%;
-  border: none;
-  background: transparent;
-  text-align: center;
-}
-
-.player-input {
-  margin-bottom: 1rem;
-  padding: 0.5rem;
-  width: 200px;
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
-}
-</style>

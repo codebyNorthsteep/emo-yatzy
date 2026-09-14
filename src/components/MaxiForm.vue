@@ -1,5 +1,6 @@
 <script setup>
-import { useMaxiYatzyLogic } from "../composables/MaxiYatzyLogic.js";
+import "../assets/yatzyTables.css";
+import { useMaxiYatzyLogic } from "../composables/maxiYatzyLogic.js";
 const {
   playerName,
   players,
@@ -90,7 +91,7 @@ const {
           <input type="number" v-model="points[player.id].tvaPar" />
         </td>
       </tr>
-            <tr>
+      <tr>
         <th scope="row">Tre Par</th>
         <td v-for="player in players" :key="player.id">
           <input type="number" v-model="points[player.id].trePar" />
@@ -108,7 +109,7 @@ const {
           <input type="number" v-model="points[player.id].fyrtal" />
         </td>
       </tr>
-            <tr>
+      <tr>
         <th scope="row">Femtal</th>
         <td v-for="player in players" :key="player.id">
           <input type="number" v-model="points[player.id].femtal" />
@@ -126,7 +127,7 @@ const {
           <input type="number" v-model="points[player.id].storStege" />
         </td>
       </tr>
-            <tr>
+      <tr>
         <th scope="row">Full stege</th>
         <td v-for="player in players" :key="player.id">
           <input type="number" v-model="points[player.id].fullStege" />
@@ -138,13 +139,13 @@ const {
           <input type="number" v-model="points[player.id].kak" />
         </td>
       </tr>
-            <tr>
+      <tr>
         <th scope="row">Hus</th>
         <td v-for="player in players" :key="player.id">
           <input type="number" v-model="points[player.id].hus" />
         </td>
       </tr>
-            <tr>
+      <tr>
         <th scope="row">Torn</th>
         <td v-for="player in players" :key="player.id">
           <input type="number" v-model="points[player.id].torn" />
@@ -173,37 +174,3 @@ const {
   </table>
   <button type="button" @click="terminateGame">Nytt Spel</button>
 </template>
-
-<style scoped>
-.yatzy-block {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-th,
-td {
-  border: 2px solid #1a1a1a;
-  padding: 4px 8px;
-  text-align: left;
-}
-
-.summa-rad {
-  background-color: #c9b8a3;
-  font-weight: bold;
-}
-
-input {
-  width: 100%;
-  border: none;
-  background: transparent;
-  text-align: center;
-}
-
-.player-input {
-  margin-bottom: 1rem;
-  padding: 0.5rem;
-  width: 200px;
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
-}
-</style>
