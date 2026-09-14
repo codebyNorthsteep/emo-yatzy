@@ -143,5 +143,9 @@ justify-content: space-between;
     width: auto;
     font-size: 16px;
   }
+
+  footer {
+    height: 60px;
+  }
 }
 </style>

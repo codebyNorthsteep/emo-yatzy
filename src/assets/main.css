@@ -59,7 +59,7 @@ h3,
 p,
 a {
   font-family: "Lekton", monospace;
-  color: #282727;
+  color: var(--emo-text);
 }
 
 a {

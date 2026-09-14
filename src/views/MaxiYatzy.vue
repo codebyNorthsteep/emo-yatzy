@@ -1,5 +1,6 @@
 <script setup>
 import MaxiForm from '../components/MaxiForm.vue'
+import MaxiInstructions from '../components/MaxiInstructions.vue'
 </script>
 <template>
     <div class="maxi-yatzy-welcome">
@@ -7,6 +8,10 @@ import MaxiForm from '../components/MaxiForm.vue'
     </div>
     <div>
         <MaxiForm />
+    </div>
+    <div>
+        <h3>Maxi Yatzy Instructions:</h3>
+        <MaxiInstructions />
     </div>
 </template>
 
