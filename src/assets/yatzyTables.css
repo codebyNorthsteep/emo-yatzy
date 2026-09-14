@@ -1,3 +1,10 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
 .yatzy-block {
   border-collapse: collapse;
   width: 100%;
@@ -5,6 +12,8 @@
 
 th,
 td {
+  font-size: 16px;
+  font-family: "Lekton", monospace;
   border: 2px solid #1a1a1a;
   padding: 4px 8px;
   text-align: left;
@@ -27,5 +36,34 @@ input {
   padding: 0.5rem;
   width: 200px;
   background-color: #f0f0f0;
-  border: 1px solid #ccc;
+  border: 1px solid #2c2b2b;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: #ff2e6c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: "Lekton", monospace;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #e6005c;
+}
+
+#terminate-button {
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .player-input {
+    width: 300px;
+  }
+
+  th, td {
+    font-size: 20px;
+    padding: 6px 12px;
+  }
 }

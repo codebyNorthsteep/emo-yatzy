@@ -1,12 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Cinzel:wght@400..900&family=Lekton:ital,wght@0,400;0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Cinzel:wght@400..900&family=Lekton:ital,wght@0,400;0,700;1,400&display=swap");
+
+:root {
+  --emo-bakgrund: #0d0d0d;
+  --emo-yta: #1a1a1a;
+  --emo-text: #f0f0f0;
+  --emo-accent: #ff2e6c;
+  --emo-accent-mork: #d4004f;
+  --emo-border: #333;
+}
+
 body {
   background-image:
-    linear-gradient(45deg, #1a1a1a 25%, transparent 25%, transparent 75%, #1a1a1a 75%),
-    linear-gradient(45deg, #1a1a1a 25%, transparent 25%, transparent 75%, #1a1a1a 75%);
+    linear-gradient(
+      45deg,
+      #1a1a1a 25%,
+      transparent 25%,
+      transparent 75%,
+      #1a1a1a 75%
+    ),
+    linear-gradient(
+      45deg,
+      #1a1a1a 25%,
+      transparent 25%,
+      transparent 75%,
+      #1a1a1a 75%
+    );
   background-size: 30px 30px;
-  background-position: 0 0, 15px 15px;
+  background-position:
+    0 0,
+    15px 15px;
   background-attachment: fixed;
-    background-color: #0d0d0d; /* mörkare bas bakom mönstret */
+  background-color: #0d0d0d; /* mörkare bas bakom mönstret */
   min-height: 100vh;
   margin: 0;
 }
@@ -14,11 +38,16 @@ body {
 h1 {
   font-size: 50px;
   margin: 0;
+  font-family: "Aboreto", cursive;
+  font-weight: 500;
+  color: #222121;
 }
 
 h2 {
   font-size: 24px;
   margin: 0;
+  font-weight: 500;
+  color: var(--emo-text);
 }
 
 h3 {
@@ -26,32 +55,17 @@ h3 {
   margin: 0;
 }
 
-h1, h2 {
-  font-family: 'Aboreto', cursive;
-  font-weight: 500;
-  color: #222121;
-}
-
-h3, p, a {
-  font-family: 'Lekton', monospace;
+h3,
+p,
+a {
+  font-family: "Lekton", monospace;
   color: #282727;
 }
 
 a {
   text-decoration: none;
   text-transform: uppercase;
-  color: #ff2e6c; 
-}
-.grid-container {
-    background-color: rgba(255, 255, 255, 0.8);
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 20px;
-  padding: 20px;
-  max-width: 300px;
-  margin: 40px auto; /* centrerar och ger luft ovanför */
-  border-radius: 8px; /* mjukar upp kanterna, funkar bra med emo-stil */
-  /*box-shadow: 0 0 20px rgba(255, 46, 108, 0.3);  rosa glow, matchar emo-tema */
+  color: #ff2e6c;
 }
 
 @media screen and (min-width: 768px) {
@@ -70,10 +84,4 @@ a {
   p {
     font-size: 20px;
   }
-
-  .grid-container {
-    max-width: 700px;
-    padding: 40px;
-  }
-
 }

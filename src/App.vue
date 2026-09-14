@@ -15,7 +15,7 @@ import { RouterLink, RouterView } from 'vue-router'
       </nav>
     </div>
   </header>
-  <main>
+  <main class="main-content">
     <RouterView />
   </main>
   <footer>
@@ -29,65 +29,119 @@ import { RouterLink, RouterView } from 'vue-router'
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
-  max-height: 100vh;
+
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 20px;
+  max-width: 900px;   /* upp från 300px — ger plats åt tabellen */
+  margin: 40px auto;
+  border-radius: 8px;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
+header {
+  background-color: var(--emo-yta);
+  border-bottom: 3px solid var(--emo-accent);
+  line-height: 1.5;
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  gap: 1rem;
+}
+
+h1 {
+  font-family: "Aboreto", cursive;
+  color: var(--emo-accent);
+  text-shadow: 0 0 12px rgba(255, 46, 108, 0.5);
+  margin: 0;
 }
 
 nav {
   width: 100%;
-  font-size: 12px;
+  font-family: 'Lekton', monospace;
+  font-size: 14px;
   text-align: center;
-  margin-top: 2rem;
-}
-
-nav a.router-link-exact-active {
-  color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
 }
 
 nav a {
   display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
+  padding: 0.5rem 1.2rem;
+  border-left: 1px solid var(--emo-border);
+  color: var(--emo-text);
+  text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 nav a:first-of-type {
   border: 0;
 }
 
+nav a:hover {
+  color: var(--emo-accent);
+}
+
+nav a.router-link-exact-active {
+  color: var(--emo-accent);
+  font-weight: bold;
+}
+
+main {
+  min-height: 70vh;
+}
+
+footer {
+  background-color: var(--emo-yta);
+  border-top: 3px solid var(--emo-accent);
+  padding: 1.5rem;
+  text-align: center;
+}
+
+footer p {
+  font-family: 'Lekton', monospace;
+  color: var(--emo-text);
+  margin: 0;
+}
+
+footer a {
+  color: var(--emo-accent);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
 @media (min-width: 768px) {
+    .main-content {
+    max-width: 700px;
+    padding: 40px;
+  }
   header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+    display: grid;
+    justify-items: center;
+    padding: 1.5rem calc(var(--section-gap, 2rem) / 2);
   }
 
-  .logo {
-    margin: 0 2rem 0 0;
+  .wrapper {
+justify-content: space-between;
+    grid-template-columns: auto auto;
+    gap: 0;
   }
 
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
+  h1 {
+    font-size: 2.5rem;
   }
 
   nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
-
-    padding: 1rem 0;
-    margin-top: 1rem;
+    margin-left: 20px;
+    width: auto;
+    font-size: 16px;
   }
 }
 </style>
