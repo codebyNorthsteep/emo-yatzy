@@ -11,24 +11,25 @@
       Övre sektionen (Ettor till Sexor): <br />
       Målet är att samla så många tärningar av vald valör som möjligt. • Bonus:
       Kräv minst 84 poäng på övre sektionen (motsvarar i snitt fyra av varje
-      valör) för att få 100 bonuspoäng.
+      valör) för att få 50 bonuspoäng.
     </p>
     <p>
       Nedre sektionen:<br />
-       • Ett par: Två tärningar med samma värde (t.ex. ⚅ ⚅).<br />
-        •Två par: Två olika par (t.ex. ⚄ ⚄ + ⚁ ⚁).<br /> 
-        • Tre par: Tre olika par på alla sex tärningar (t.ex. ⚅ ⚅ + ⚄ ⚄ + ⚀ ⚀). <br />
-      • Tretal: Tre tärningar med samma värde (t.ex. ⚃ ⚃ ⚃).<br /> 
-      • Fyrtal: Fyra tärningar med samma värde (t.ex. ⚂ ⚂ ⚂ ⚂).<br /> 
-      • Femtal: Fem tärningar med samma värde (t.ex. ⚄ ⚄ ⚄ ⚄ ⚄).<br /> 
-      • Liten stege: Kombi 1-2-3-4-5 (⚀ ⚁ ⚂ ⚃ ⚄) – ger 15 poäng.<br /> 
-      • Stor stege: Kombi 2-3-4-5-6 (⚁ ⚂ ⚃ ⚄ ⚅) – ger 20 poäng.<br /> 
-      • Full stege / Maxi-stege: Kombi 1-2-3-4-5-6 (⚀ ⚁ ⚂ ⚃ ⚄ ⚅) – ger 21 poäng.<br /> 
-      • Hus: Ett tretal och ett par (t.ex. ⚄ ⚄ ⚄ + ⚁ ⚁).<br /> 
-      • Kåk: Två tretal (t.ex. ⚅ ⚅ ⚅ + ⚂ ⚂ ⚂).<br /> 
-      • Torn: Ett fyrtal och ett par (t.ex. ⚄ ⚄ ⚄ ⚄ + ⚀ ⚀).<br /> 
-      • Chans: Summan av samtliga sex tärningar, oavsett kombination.<br /> 
-      • Maxi Yatzy: Alla 6 tärningar visar samma värde (t.ex. ⚅ ⚅ ⚅ ⚅ ⚅ ⚅) – ger 100 poäng.
+      • Ett par: ⚅ ⚅<br />
+      • Två par: ⚄ ⚄ + ⚁ ⚁<br />
+      • Tretal: ⚃ ⚃ ⚃<br />
+      • Fyrtal: ⚂ ⚂ ⚂ ⚂<br />
+      • Femtal: ⚄ ⚄ ⚄ ⚄ ⚄<br />
+      • Liten stege: ⚀ ⚁ ⚂ ⚃ ⚄ – ger 15 poäng<br />
+      • Stor stege: ⚁ ⚂ ⚃ ⚄ ⚅ – ger 20 poäng<br />
+      • Full stege / Maxi-stege: ⚀ ⚁ ⚂ ⚃ ⚄ ⚅ – ger 21 poäng.<br />
+
+      • Kåk: ⚅ ⚅ ⚅ + ⚂ ⚂<br />
+      • Hus: ⚄ ⚄ ⚄ + ⚁ ⚁<br />
+      • Torn: ⚄ ⚄ ⚄ ⚄ + ⚀ ⚀<br />
+      • Chans: Summan av samtliga sex tärningar, oavsett kombination.<br />
+      • Maxi Yatzy: Alla 6 tärningar visar samma värde (t.ex. ⚅ ⚅ ⚅ ⚅ ⚅ ⚅) – ger
+      100 poäng.
     </p>
   </div>
 </template>
