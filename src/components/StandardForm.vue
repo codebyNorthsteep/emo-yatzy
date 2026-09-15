@@ -19,6 +19,7 @@ const {
       <input
         class="player-input"
         type="text"
+        required
         minlength="1"
         maxlength="10"
         v-model="playerName"
