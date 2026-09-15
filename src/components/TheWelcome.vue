@@ -1,7 +1,3 @@
-<script setup>
-
-const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
-</script>
 
 <template>
   <div class="welcome">
@@ -41,6 +37,11 @@ const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
     </p>
 
     <p>Välj ett spelläge i menyn ovan för att komma igång.</p>
+    <div class="readme-link">
+      <a href="https://github.com/codebynorthsteep/emo-yatzy#readme" target="_blank" rel="noopener noreferrer">
+  Läs mer om projektet på GitHub
+</a>
+    </div>
   </div>
 </template>
 
@@ -51,6 +52,24 @@ const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
   border-radius: 8px;
   padding: 20px;
   text-align: center;
+}
+
+
+.readme-link {
+  margin-top: 30px;
+  border: 3px solid white;
+  border-radius: 8px;
+  padding: 10px;
+}
+.readme-link a {
+  font-weight: bold;
+  color: var(--emo-text);
+  text-decoration: none;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+}
+.readme-link a:hover {
+  text-decoration: underline;
 }
 
 </style>    
