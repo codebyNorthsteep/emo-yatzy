@@ -4,8 +4,8 @@
   --emo-bakgrund: #0d0d0d;
   --emo-yta: #1a1a1a;
   --emo-text: #f0f0f0;
-  --emo-accent: #ff2e6c;
-  --emo-accent-mork: #d4004f;
+  --emo-accent: #7a0e2f;
+  --emo-accent-mork: #380518;
   --emo-border: #333;
 }
 
@@ -13,24 +13,24 @@ body {
   background-image:
     linear-gradient(
       45deg,
-      #1a1a1a 25%,
+    var(--emo-yta) 25%,
       transparent 25%,
       transparent 75%,
-      #1a1a1a 75%
+      var(--emo-yta) 75%
     ),
     linear-gradient(
       45deg,
-      #1a1a1a 25%,
+      var(--emo-yta) 25%,
       transparent 25%,
       transparent 75%,
-      #1a1a1a 75%
+      var(--emo-yta) 75%
     );
   background-size: 30px 30px;
   background-position:
     0 0,
     15px 15px;
   background-attachment: fixed;
-  background-color: #0d0d0d; /* mörkare bas bakom mönstret */
+  background-color: var(--emo-bakgrund); /* mörkare bas bakom mönstret */
   min-height: 100vh;
   margin: 0;
 }

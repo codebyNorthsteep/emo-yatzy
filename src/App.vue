@@ -57,8 +57,8 @@ header {
 
 h1 {
   font-family: "Aboreto", cursive;
-  color: var(--emo-accent);
-  text-shadow: 0 0 12px rgba(255, 46, 108, 0.5);
+  color: var(--emo-text);
+  text-shadow: 0 0 12px rgba(204, 196, 198, 0.5);
   margin: 0;
 }
 

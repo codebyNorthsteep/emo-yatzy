@@ -15,11 +15,16 @@ const {
 
 <template>
   <div class="form-container">
-  <form @submit.prevent="addPlayer">
-    <input class="player-input" type="text" v-model="playerName" placeholder="Skriv in spelarnamn.." />
-    <button type="submit">Add Player</button>
-  </form>
-</div>
+    <form @submit.prevent="addPlayer">
+      <input
+        class="player-input"
+        type="text"
+        v-model="playerName"
+        placeholder="Skriv in spelarnamn.."
+      />
+      <button type="submit">Add Player</button>
+    </form>
+  </div>
   <table class="yatzy-block">
     <thead>
       <tr class="summa-rad">
@@ -174,5 +179,7 @@ const {
       </tr>
     </tbody>
   </table>
-  <div id="terminate-button"><button type="button" @click="terminateGame">Nytt Spel</button></div>
+  <div id="terminate-button">
+    <button type="button" @click="terminateGame">Nytt Spel</button>
+  </div>
 </template>
