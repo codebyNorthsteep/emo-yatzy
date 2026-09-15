@@ -31,6 +31,9 @@ input {
   border: none;
   background: transparent;
   text-align: center;
+  color: var(--emo-text);
+  font-family: "Lekton", monospace;
+  font-size: 18px;
 }
 
 .player-input {

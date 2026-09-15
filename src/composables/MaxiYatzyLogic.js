@@ -1,10 +1,15 @@
-import { ref, reactive } from "vue";
+import { ref, reactive, watch } from "vue";
 
 export function useMaxiYatzyLogic() {
-  const playerName = ref("");
-  const players = ref([]);
+  const STORAGE_KEY = "maxiYatzy";
+  const savedData = JSON.parse(localStorage.getItem(STORAGE_KEY)) || {
+    players: [],
+    points: {},
+  };
 
-  const points = reactive([{}]);
+  const playerName = ref("");
+  const players = ref(savedData.players);
+  const points = reactive(savedData.points);
 
   const kategorier = ["ettor", "tvaor", "treor", "fyror", "femmor", "sexor"];
   const kombinationer = [
@@ -23,6 +28,17 @@ export function useMaxiYatzyLogic() {
     "chans",
     "maxiYatzy",
   ];
+
+    watch(
+      [players, points],
+      () => {
+        localStorage.setItem(
+          STORAGE_KEY,
+          JSON.stringify({ players: players.value, points: points }),
+        );
+      },
+      { deep: true },
+    );
 
   function addPlayer() {
     const id = Date.now();
@@ -56,6 +72,7 @@ export function useMaxiYatzyLogic() {
   function terminateGame() {
     players.value = [];
     Object.keys(points).forEach((key) => delete points[key]);
+    localStorage.removeItem(STORAGE_KEY);
   }
 
   return {

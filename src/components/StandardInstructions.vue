@@ -7,14 +7,14 @@
       spara vissa tärningar och kasta om de andra. När alla kast är gjorda måste
       spelaren välja en kombination att fylla i sin poängtabell.
     </p>
+    <h4>Övre sektionen (Ettor till Sexor):</h4>
     <p>
-      Övre sektionen (Ettor till Sexor): <br />
       Målet är att samla så många tärningar av vald valör som möjligt. <br />
       ✴︎ Bonus: Kräv minst 63 poäng på övre sektionen (motsvarar i snitt tre av
       varje valör) för att få 50 bonuspoäng.
     </p>
+    <h4>Nedre sektionen:</h4>
     <p>
-      Nedre sektionen:<br />
       ✴︎ Ett par: ⚅ ⚅<br />
       ✴︎ Två par: ⚄ ⚄ + ⚁ ⚁<br />
       ✴︎ Tretal: ⚃ ⚃ ⚃<br />
