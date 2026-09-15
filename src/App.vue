@@ -42,7 +42,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
 header {
   background-color: var(--emo-yta);
-  border-bottom: 3px solid var(--emo-accent);
+  border-bottom: 3px solid white;
   line-height: 1.5;
   padding: 1.5rem 0;
   text-align: center;
@@ -87,7 +87,11 @@ nav a:hover {
 }
 
 nav a.router-link-exact-active {
-  color: var(--emo-accent);
+  color: var(--emo-text);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -97,7 +101,7 @@ main {
 
 footer {
   background-color: var(--emo-yta);
-  border-top: 3px solid var(--emo-accent);
+  border-top: 3px solid white;
   padding: 1.5rem;
   text-align: center;
 }
@@ -109,8 +113,10 @@ footer p {
 }
 
 footer a {
-  color: var(--emo-accent);
+  color: var(--emo-text);
   text-decoration: none;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
 }
 
 footer a:hover {

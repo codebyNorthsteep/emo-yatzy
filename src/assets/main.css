@@ -44,7 +44,8 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+  font-family: "Cinzel", serif;
+  font-size: 14px;
   margin: 0;
   font-weight: 500;
   color: var(--emo-text);
@@ -56,8 +57,6 @@ h3 {
 }
 
 h4 {
-    font-family: "Aboreto", cursive;
-  color: var(--emo-text);
   font-size: 18px;
   text-transform: uppercase;
   margin-top: 10px;
@@ -65,6 +64,7 @@ h4 {
 }
 
 h3,
+h4,
 p,
 a {
   font-family: "Lekton", monospace;
@@ -83,7 +83,7 @@ a {
   }
 
   h2 {
-    font-size: 45px;
+    font-size: 35px;
   }
 
   h3 {
