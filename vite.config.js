@@ -6,11 +6,12 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/emo-yatzy/',
   plugins: [
     vue(),
     vueDevTools(),
   ],
+  base: '/emo-yatzy/',
+  
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
