@@ -40,7 +40,7 @@ input {
   margin-bottom: 1rem;
   padding: 0.5rem;
   width: 200px;
-  color: var(emo-text);
+  color: var(--emo-text);
   background-color: #413f3d;
   border: 1px solid #2c2b2b;
 }
