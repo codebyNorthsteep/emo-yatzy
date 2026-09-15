@@ -19,6 +19,8 @@ const {
       <input
         class="player-input"
         type="text"
+        minlength="1"
+        maxlength="10"
         v-model="playerName"
         placeholder="Skriv in spelarnamn.."
       />
