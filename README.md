@@ -2,7 +2,7 @@
 
 Ett digitalt anteckningsblock för Yatzy — inga tärningar, inget krångel, bara plats att fylla i poängen medan ni spelar med era egna tärningar. Byggt med Vue 3 + Vite, med ett Emo-tema (schackrutig bakgrund, rosa accentfärg, Aboreto/Lekton-typsnitt).
 
-   <img width="534" height="498" alt="finalGifDemo" src="/src/assets/emo-yatzy.gif">
+   <img width="434" height="398" alt="finalGifDemo" src="/src/assets/emo-yatzy.gif">
 
 ## Funktioner
 
