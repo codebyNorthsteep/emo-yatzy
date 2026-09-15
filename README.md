@@ -2,6 +2,8 @@
 
 Ett digitalt anteckningsblock för Yatzy — inga tärningar, inget krångel, bara plats att fylla i poängen medan ni spelar med era egna tärningar. Byggt med Vue 3 + Vite, med ett Emo-tema (schackrutig bakgrund, rosa accentfärg, Aboreto/Lekton-typsnitt).
 
+   <img width="534" height="498" alt="finalGifDemo" src="/src/assets/emo-yatzy.gif">
+
 ## Funktioner
 
 - **Standard Yatzy** — klassiska spelet med fem tärningar, 15 kategorier
